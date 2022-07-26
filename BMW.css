@@ -1,0 +1,730 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: url("./bmw.jpg") no-repeat center/cover;
+}
+nav{
+    width: 100%;
+    height: 110px;
+    background-color: rgba(128, 128, 128, 0.295);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.nav_collection{
+    list-style: none;
+    display: flex;
+
+}
+.nav_item{
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+.nav_icons img{
+    width: 60px;
+}
+.nav_icons{
+    display: flex;
+    align-items: center;
+}
+.nav_icons i{
+    margin-right: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+.header_title{
+    padding: 30px 100px;
+    font-weight: 100;
+    font-size: 50px;
+}
+.btn_blue{
+    width: 250px;
+    height: 50px;
+    margin: 10px 100px;
+    background-color: dodgerblue;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.two_items{
+    width: 100%;
+    height: 360px;
+    border: 3px solid white;
+    display: flex;
+}
+.left_side{
+    width: 50%;
+    height: 100%;
+    border: 3px solid white;
+    background: url("./cq5dam.resized.img.1680.large.time1634820930915.jpg") no-repeat center/cover;
+    padding: 50px;
+}
+.right_side{
+    width: 50%;
+    height: 100%;
+    border: 3px solid white;
+    background: url("./cq5dam.resized.img.1680.large.time1627481217507.jpg") no-repeat center/cover;
+    padding: 50px;
+}
+.left_side h1{
+    color: #fff;
+    font-weight: 100;
+}
+.right_side h1{
+    color: #fff;
+    font-weight: 100;
+}
+.left_side button,
+.right_side button{
+    width: 250px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #fff;    
+}
+.vazifa{
+    width: 100%;
+    height: 450px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.x1{
+    width: 25%;
+    height: 100%;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.x2{
+    width: 25%;
+    height: 100%;
+    background-color: #fff;
+    
+}
+.x3{
+    width: 25%;
+    height: 100%;
+    margin-top: 15px;
+    background-color: #fff;
+}
+.x4{
+    width: 25%;
+    height: 100%;
+    background-color: #fff;
+    margin-top: 15px;
+}
+.bmw1{
+    width: 100%;
+    height: 35%;
+    margin-top: 20px;
+}
+.bmw2{
+    width: 100%;
+    height: 44%;
+}
+.bmw3{
+    width: 100%;
+    height: 40%;
+}
+.bmw4{
+    width: 100%;
+    font-size: 20px;
+    height: 40%;
+    
+}
+.h1{
+    margin-left: 10px;
+}
+.h12{
+    margin-top: -19px;
+    margin-left: 10px;
+}
+.h13{
+    margin-top: 3px;
+    margin-left: 10px;
+    
+}
+.h14{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+
+.h4{
+    color: gray;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.h3{
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    color: black;
+    
+}
+
+.next{
+    margin-top: -19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.vazifa2{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.box1{
+    width: 32%;
+    height: 100%;
+    background-color: #fff;
+}
+.box2{
+    width: 32%;
+    height: 100%;
+    background-color: #fff;
+
+}
+.box3{
+    width: 32%;
+    height: 100%;
+    background-color: #fff;
+
+    
+}
+.boxi1{
+    width: 100%;
+    height: 45%;
+    background: url("./nig.jpg") no-repeat center/cover;
+}
+.boxi2{
+    width: 100%;
+    height: 45%;
+    background: url("./ART-IN-A-BUNKER-4.jpg") no-repeat center/cover;
+}.boxi3{
+    width: 100%;
+    height: 45%;
+    background: url("./tog\'.jpg") no-repeat center/cover;
+}
+
+
+.img1{
+    width: 460px;  
+    height: 300px;
+    background-color: transparent;
+    margin-top: 80px;
+    margin-left: -20px;
+}
+.img2{
+    width: 430px;  
+    height: 310px;
+    background-color: transparent;
+    margin-top: 55px;
+    margin-left: -40px;
+}
+.img3{
+    width: 500px;  
+    height: 320px;
+    background-color: transparent;
+    margin-top: 55px;
+    margin-left: -30px;
+}
+.btn_transparent1{
+    width: 86%;
+    height: 55px;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 7%;
+    background-color: #fff;
+    font-size: 18px;
+    color: rgb(60, 60, 60);
+    font-family: sans-serif;   
+}
+.yes1{
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 7%;
+
+}
+.panor1{
+    font-size: 19px;
+    margin-left: 30px;
+    margin-top: -24px;
+    color: rgb(31, 31, 31);
+    font-family: sans-serif;
+}
+.yes2{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 7%;
+}
+.panor2{
+    font-size: 19px;
+    margin-left: 30px;
+    margin-top: -24px;
+    color: rgb(31, 31, 31);
+    font-family: sans-serif;
+}
+.yes3{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 7%;
+}
+.panor3{
+    font-size: 19px;
+    margin-left: 30px;
+    margin-top: -24px;
+    color: rgb(31, 31, 31);
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.vazifa3{
+    width: 100%;
+    height: 800px;
+    background-color: rgba(128, 128, 128, 0.205);
+}
+.futr1{
+    width: 100%;
+    height: 30%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.find{
+    width: 30%;
+    height: 70%;
+    background-color: rgba(128, 128, 128, 0.121);
+    margin-left: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maps{
+    margin-top: -30px;
+    margin-left: 60px;
+    font-size: 25px;
+    color: rgb(84, 84, 84);
+}
+.dealar{
+    color: gray;
+    font-family: unset;
+     margin-left: -60px;
+     margin-top: 50px;
+}
+
+
+.all{
+    width: 30%;
+    height: 70%;
+    background-color: rgb(128, 128, 128, 0.121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.car{
+    font-size: 25px;
+    color: rgb(84, 84, 84);
+    margin-top: -30px;
+    margin-left: 50px;
+}
+.models{
+    color: gray;
+    font-family: unset;
+    margin-left: -50px;
+    margin-top: 50px;
+}
+
+
+.contact{
+    width: 30%;
+    height: 70%;
+    background-color: rgba(128, 128, 128, 0.121);
+    margin-right: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con{
+    font-size: 25px;
+    color: rgb(84, 84, 84);
+    margin-top: -30px;
+    margin-left: 45px;
+}
+.tac{
+    color: gray;
+    margin-left: -45px;
+    margin-top: 50px;
+}
+.find:hover,
+.all:hover,
+.contact:hover{
+    background-color: rgb(128, 128, 128, 0.205);
+}
+
+
+
+.iconfi{
+    width: 90%;
+    height: 180px;
+    background-color: rgba(237, 235, 235, 0.088);
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+    border-bottom: 1px solid gray;
+
+}
+
+.facebook{
+    font-size: 30px;
+    color: rgb(84, 84, 84);
+    margin-left: 86%;
+    
+
+}
+.instagram{
+    font-size: 30px;
+    color: rgb(84, 84, 84);
+    margin-left: 50px;
+}
+.futr3{
+    width: 100%;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+.bir{
+    margin-left: 410px;
+    margin-top: 150px;
+}
+.world{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: -30px;
+}
+.feed{
+    font-family: sans-serif;
+    margin-top: 30px;
+    color: gray;
+}
+
+
+
+.ikki{
+    margin-right: 410px;
+    margin-top: 150px;
+}
+.wmb{
+    font-size: 25px;
+    margin-top: -30px;
+}
+.faq{
+    font-family: sans-serif;
+    margin-top: 30px;
+    color: gray;
+
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_texti{
+    font-size: 16px;
+    margin-left: 100px;
+}
+.navbar_titli{
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+}
+.itemli{
+    padding-left: 20px;
+    color: dodgerblue;
+    
+}
+.there_item{
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+}
+.car_top{
+    width: 100%;
+    height: 60%;
+    background-color: #fff;
+    display: flex;
+}
+.ovner{
+    width: 35%;
+    height: 90%;
+    background-color: rgba(128, 128, 128, 0.121);
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    
+}
+.becom{
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+
+.head{
+        width: 21%;
+        height: 90%;
+        background-color: rgba(128, 128, 128, 0.121);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6px;
+        margin-left: 10px;
+}
+.birinchi{
+    font-size: 25px;
+    color: black;
+    margin-top: -80px;
+    margin-left: 105px;
+
+
+}
+.brinch{
+    width: 240px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: -123px;
+    margin-top: 50px;
+    background-color: rgba(0, 60, 255, 0.732);
+}
+
+
+.bady{
+    width: 21%;
+    height: 90%;
+    background-color: rgba(128, 128, 128, 0.121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    margin-left: 10px;
+
+
+}
+.ikkinchi{
+    font-size: 25px;
+    color: black;
+    margin-top: -30px;
+    margin-left:55px;
+}
+.ikinchi{
+    font-size: 20px;
+    margin-left: -60px;
+    margin-top: 60px;
+
+}
+
+
+.foot{
+    width: 21%;
+    height: 90%;
+    background-color: rgba(128, 128, 128, 0.121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    margin-left: 10px;
+
+}
+.uchinchi{
+    font-size: 25px;
+    color: black;
+    margin-top: -25px;
+    margin-left: 45px;
+}
+.uchnchi{
+    font-size: 20px;
+    margin-left: -52px;
+    margin-top: 65px;
+    
+}
+.num_bottom{
+    width: 95%;
+    height: 40%;
+    background-color: #fff;
+    display: flex;
+    margin-left: 6%;
+    
+}
+.ser{
+    width: 80px;
+    padding-left: 13px;
+    font-size: 18px;
+    margin-top: 90px;
+    border-bottom: 5px solid blue;
+}
+.typ{
+    width: 86%;
+    font-size: 18px;
+    margin-top: 60px; 
+    padding-left: 20px;
+    margin-top: 90px;
+    color: rgb(99, 99, 99);
+    border-bottom: 1px solid gray;
+}
+
+.madel{
+    width: 88%;
+    height: 85px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-left: 5.9%;
+}
+.nomi{
+    font-size: 18px;
+    padding-left: 40px;
+    color: gray;
+}
+.nomib{
+    font-size: 18px;
+    padding-left: 40px;
+    color: gray;
+    border-bottom: 5px solid blue;
+    
+}
+
+.for{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+}
+
+.bmw11{
+    width: 120%;
+    height: 50%;
+    margin-top: -20px;
+    margin-left: -15px;
+}
+.h11{
+    margin-left: 5px;
+    margin-top: -50px;
+
+}
+.h4{
+    margin-left: 10px;
+}
+
+.bmw22{
+    width: 100%;
+    height: 40%;
+}
+.bmw33{
+    width: 100%;
+    height: 40%;
+}
+.h13{
+    margin-top: -15px;
+}
+.bmw44{
+    width: 100%;
+    height: 40%;
+    margin-top: 16px;
+}
+.h14{
+    margin-top: -15px;
+}
+
+
+.fiv{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 55px;
+    padding-right: 50px;
+    
+}
+
+.bmw111{
+    width: 120%;
+    height: 34%;
+    margin-top: 30px;
+    margin-left: -15px;
+}
+.h111{
+    margin-left: 20px;
+    margin-top: -20px;
+
+}
+
+.bmw222{
+    width: 110%;
+    height: 40%;
+}
+.bmw333{
+    width: 100%;
+    height: 30%;
+    margin-top: 25px;
+}
+.bmw444{
+    width: 100%;
+    height: 40%;
+    margin-top: 16px;
+}
+.h133{
+    margin-top: 10px;
+}
